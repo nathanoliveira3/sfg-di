@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan({"br.com.di", "br.com.pets"})
+@ComponentScan(basePackages = {"br.com.di", "br.com.pets"})
 @SpringBootApplication
 public class DiApplication {
 
